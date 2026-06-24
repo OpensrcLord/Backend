@@ -1,9 +1,21 @@
 .env
 node_modules
-docs
+.turbo
+**/.turbo
+dist
+docs/*
+!docs/plans/
+!docs/plans/**
 scripts
+!indexer/scripts/
+!indexer/scripts/**
+indexer/docs
+indexer/**/dist
 coverage
 coverage/**
 *.log
 
 *.tsbuildinfo
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
